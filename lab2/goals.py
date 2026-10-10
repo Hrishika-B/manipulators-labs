@@ -9,9 +9,9 @@ import spatialmath as sm
 #   rx, ry, rz: UR rotation vector (axis * angle), in radians -- NOT roll/pitch/yaw
 GOALS = np.array(
     [
-        [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],  # Replace with waypoint 1
-        [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],  # Replace with waypoint 2
-        [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],  # Replace with waypoint 3
+        [-0.22766, -0.39394, -0.23132, 0.386, 3.091, 0.018],  # Replace with waypoint 1
+        [-0.00528, -0.34990, 0.36398, 0.413, -2.269, 2.424],  # Replace with waypoint 2
+        [-0.15890, 0.04279, 0.56571, 0.0190, 0.090, 3.700],  # Replace with waypoint 3
     ],
     dtype=float,
 )

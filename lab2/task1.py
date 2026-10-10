@@ -1,7 +1,6 @@
 """Task 1: command and record a Cartesian (moveL) trajectory in URSim."""
 
 import os
-
 import numpy as np
 import pandas as pd
 from rtde_control import RTDEControlInterface as RTDEControl
